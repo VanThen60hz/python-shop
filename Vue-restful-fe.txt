@@ -1,0 +1,13 @@
+Các các cli của vue:
+npm install -g @vue/cli
+
+vue create devfest-vue
+
+cd devfest-vue (vào thư mục dự án vue)
+
+npm install axios
+
+npm install bulma (thư viện css)
+
+
+npm run serve (chạy server)

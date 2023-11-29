@@ -1,0 +1,47 @@
+tạo environment:
+virtualenv environment_3_8_2
+
+active environment:
+environment_3_8_2\Scripts\activate
+
+install django in project: 
+pip install django
+
+install django rest framework:
+pip install django-rest-framework
+
+install cors-headers (xử lý bảo mật api):
+pip install django-cors-headers
+
+pip install djoser (thư viện xử lý authen)
+
+pip install pillow (thư viện xử lý hình ảnh)
+
+pip install stripe (thư viện xử lý thanh toán trực tuyến)
+
+django-admin startproject devfest_restful_be ( tạo mới project)
+
+cd devfest_restful_be (đi vào thư mục chứa devfest_restful_be)
+
+
+
+DATABASE setup:
+python manage.py makemigrations
+python manage.py migrate
+
+đăng ký superuser (admin):
+python manage.py createsuperuser
+
+Run server:
+python manage.py runserver
+
+
+create django app and models for product:
+python manage.py startapp product
+
+Sau khi tạo xong model product: 
+python manage.py makemigrations
+python manage.py migrate (để chạy lại database)
+
+
+
