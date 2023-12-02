@@ -19,9 +19,9 @@ pip install pillow (thư viện xử lý hình ảnh)
 
 pip install stripe (thư viện xử lý thanh toán trực tuyến)
 
-django-admin startproject devfest_restful_be ( tạo mới project)
+django-admin startproject py-shop ( tạo mới project)
 
-cd devfest_restful_be (đi vào thư mục chứa devfest_restful_be)
+cd py-shop (đi vào thư mục chứa py-shop)
 
 
 

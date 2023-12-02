@@ -2,7 +2,7 @@
   <div class="home">
     <section class="hero is-medium is-dark mb-6">
       <div class="hero-body has-text-centered">
-        <p class="title mb-6">Welcome to DEVFEST</p>
+        <p class="title mb-6">Welcome to PYSHOP</p>
         <p class="subtitle">The best shopping store online</p>
       </div>
     </section>
@@ -37,7 +37,7 @@ export default {
   },
   mounted() {
     this.getLatestProducts();
-    document.title = "Home | DEVFEST";
+    document.title = "Home | PYSHOP";
   },
   methods: {
     async getLatestProducts() {

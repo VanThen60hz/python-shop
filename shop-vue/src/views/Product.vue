@@ -57,7 +57,7 @@ export default {
         .then((response) => {
           this.product = response.data;
 
-          document.title = this.product.name + " | DEVFEST";
+          document.title = this.product.name + " | PYSHOP";
         })
         .catch((error) => {
           console.log(error);

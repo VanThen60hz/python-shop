@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <section class="hero is-medium mb-6">
+    <!-- <section class="hero is-medium mb-6">
       <div
         id="carouselExampleControls"
         class="carousel slide"
@@ -51,7 +51,7 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    </section>
+    </section> -->
 
     <div class="columns is-multiline">
       <div class="column is-12">
@@ -106,7 +106,7 @@ export default {
   },
   mounted() {
     this.getLatestProducts();
-    document.title = "Home | DEVFEST";
+    document.title = "Home | PYSHOP";
   },
   methods: {
     async getLatestProducts(url = "/api/v1/latest-products/") {

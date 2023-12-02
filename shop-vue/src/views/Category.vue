@@ -53,7 +53,7 @@ export default {
         .then((response) => {
           this.category = response.data;
 
-          document.title = this.category.name + " | DEVFEST";
+          document.title = this.category.name + " | PYSHOP";
         })
         .catch((error) => {
           console.log(error);

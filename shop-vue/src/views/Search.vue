@@ -32,7 +32,7 @@ export default {
     };
   },
   mounted() {
-    document.title = "Search | DEVFEST";
+    document.title = "Search | PYSHOP";
 
     let uri = window.location.search.substring(1);
     let params = new URLSearchParams(uri);

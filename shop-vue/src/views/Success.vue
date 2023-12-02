@@ -14,7 +14,7 @@
 export default {
   name: "Success",
   mounted() {
-    document.title = "Success | DEVFEST";
+    document.title = "Success | PYSHOP";
   },
 };
 </script>
