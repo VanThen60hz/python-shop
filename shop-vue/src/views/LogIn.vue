@@ -51,7 +51,7 @@ export default {
     };
   },
   mounted() {
-    document.title = "Log In | DEVFEST";
+    document.title = "Log In | PYSHOP";
   },
   methods: {
     async submitForm() {

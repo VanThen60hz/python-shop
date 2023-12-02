@@ -40,7 +40,7 @@ export default {
     };
   },
   mounted() {
-    document.title = "My account | DEVFEST";
+    document.title = "My account | PYSHOP";
 
     this.getMyOrders();
   },

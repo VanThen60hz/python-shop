@@ -1,5 +1,5 @@
 """
-WSGI config for devfest_restful_be project.
+WSGI config for py-shop project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'devfest_restful_be.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'py-shop.settings')
 
 application = get_wsgi_application()

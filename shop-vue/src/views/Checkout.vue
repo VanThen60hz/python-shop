@@ -138,14 +138,12 @@ export default {
     };
   },
   mounted() {
-    document.title = "Checkout | DEVFEST";
+    document.title = "Checkout | PYSHOP";
 
     this.cart = this.$store.state.cart;
 
     if (this.cartTotalLength > 0) {
-      this.stripe = Stripe(
-        "pk_test_51H1HiuKBJV2qfWbD2gQe6aqanfw6Eyul5PO2KeOuSRlUMuaV4TxEtaQyzr9DbLITSZweL7XjK3p74swcGYrE2qEX00Hz7GmhMI"
-      );
+      this.stripe = Stripe("pk_test_TYooMQauvdEDq54NiTphI7jx");
       const elements = this.stripe.elements();
       this.card = elements.create("card", { hidePostalCode: true });
 
@@ -193,12 +191,11 @@ export default {
         this.stripe.createToken(this.card).then((result) => {
           if (result.error) {
             this.$store.commit("setIsLoading", false);
+            console.log(result.error.message);
 
             this.errors.push(
               "Something went wrong with Stripe. Please try again"
             );
-
-            console.log(result.error.message);
           } else {
             this.stripeTokenHandler(result.token);
           }

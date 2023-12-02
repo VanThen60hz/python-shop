@@ -3,7 +3,7 @@
     <nav class="navbar is-dark">
       <div class="navbar-brand">
         <router-link to="/" class="navbar-item"
-          ><strong>DEVFEST</strong></router-link
+          ><strong>PYSHOP</strong></router-link
         >
 
         <a
